@@ -7,7 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
     <link type="text/css" rel="stylesheet" href="css/letras.css">
+    <link rel="stylesheet" href="css/solo_pagina_principal.css ">
+    
     <title>Ayuda a un peludo</title>
+    <style>
+        .img_animales {
+            width: 250px;
+            height: 250px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
 </head>
 
 <body>
@@ -24,43 +35,36 @@
             <li><a href="menu_perros.html">Perros</a></li>
             <li><a href="menu_gatos.html">Gatos</a></li>
             <li><a href="contacto.html">Contactos</a></li>
-
         </ul>
-
     </nav>
-
-    <!-- <center> centrar texto o imagenes        -->
-
-
-    
     <br>
-
     <!-- parrafo presentacion                 -->
-    <p>ONG ayuda a un peludo es una ONG sin fin de lucro que se especializa en la adopcion de animales que
-    viven
-    en la calle, la cual busca incentivar la adopcion de estos animales para mejorar sus vidas.
-    </p> 
-
-
-
-    <h2>NUESTROS INTEGRANTES</h2>
+    <div class="container">
+        <h2>ONG ayuda a un peludo es una ONG sin fin de lucro que se especializa en la adopcion de animales que
+            viven en la calle, la cual busca incentivar la adopcion de estos animales para mejorar sus vidas.</h2>
+    </div>
+    <br><br/>
+    <h2>NUESTROS INTEGRANTES SON:</h2>
     <br>
     <!-- integrantes  -->
-
     <ul>
-        <li>Eder Ortiz - Lider ONG</li>
-        <li>Leo Mino - Veterinario</li>
-        <li>Alfredo Estay - Activista</li>
+        <h3>Eder Ortiz - Lider ONG</h3>
+        <h3>Leo Mino - Veterinario</h3>
+        <h3>Alfredo Estay - Activista</h3>
     </ul>
-
-
     <br></br>
-    <img src="imagenes/gatossss.png " width="100" height="100" alt="sin imagen">
-    <a href="menu_gatos.html">Gatos</a>
-
-    <br></br>
-    <img src="imagenes/perritosss.jpg" width="100" height="100" alt="sin imagen">
-    <a href="menu_perros.html">Perros</a>
+    <div class="container">
+        <div class="nombres">
+        <img src="imagenes/gatossss.png " alt="sin imagen" class="img_animales">
+        <a href="menu_gatos.html">Gatos</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="nombres">
+        <img src="imagenes/perritosss.jpg " alt="sin imagen" class="img_animales">
+        <a href="menu_perros.html">Perros</a>
+        </div>
+    </div>
 
 
 </body>
